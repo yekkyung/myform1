@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>2022.06.22</title>
+    <style>
+      body {
+       background-color: lightblue;
+       color: black;
+    }
+    </style>
+  </head>
+  <body>
+
+<h1>FORM</h1>
+
+  <form action="https://poiemaweb.com/html5-tag-forms" method="get">
+    ID: <input type="text" name="id" value="son">
+    Username: <input type="text" name="username" value="yekyung">
+    <input type="submit" name="submit" value="전송">
+  </form>
+  <hr>
+
+<h3>button</h3>
+<input type="button" value="Clikck me" onclick="alert('안녕하세요. 나는 버튼입니다.')">
+<hr>
+
+<h3>checkbox</h3>
+<table border="2">
+  <tr>
+    <th>check</th>
+    <th>User</th></tr>
+  <tr>
+    <td><input type="checkbox" name="user1" value="user1" checked></td>
+    <td>user1</td></tr>
+    <tr>
+      <td><input type="checkbox" name="user2" value="user2"></td>
+      <td>user2</td></tr>
+      <tr>
+        <td><input type="checkbox" name="user3" value="user3"></td>
+        <td>user3</td></tr>
+  </table>
+<hr>
+
+<h3>color</h3>
+<input type="color" name="my color">
+<hr>
+
+<h3>date</h3>
+<input type="date" name="birthday" value="0000-00-00">
+<hr>
+
+<h3>datetime</h3>
+<input type="datetime" name="birthdaytime" value="hour:minutes">
+<hr>
+
+<h3>datetime-local</h3>
+<input type="datetime-local" name="birthdaytime" >
+<hr>
+
+<h3>email</h3>
+<input type="email" name="useremail" value="__________naver.com">
+<hr>
+
+<h3>file</h3>
+첨부파일 <input type="file" name="myfile">
+<hr>
+
+<h3>hidden</h3>
+<input type="hidden" name="contry" value="korea">
+hidden filed는 사용자에 표시되지 않는다.
+<hr>
+
+<h3>image</h3>
+<input type="image" src="yoga.jpg" alt="submit" width="20" height="20" onclick="alert('error')">
+<hr>
+
+<h3>month</h3>
+태어난 월을 입력하시오.<br><br>
+<input type="month" name="birthdaymonth" value="2022-01">
+<hr>
+
+<h3>number</h3>
+<input type="number" name="quantity" min="1" max="10" step="2" value="1">
+<hr>
+
+<h3>password</h3>
+<input type="password" name="pwd" value="******">
+<hr>
+
+<h3>radio</h3>
+<input type="radio" name="gender" value="male" checked> 남자<br>
+<input type="radio" name="gender" value="female"> 여자<br>
+<hr>
+
+
+
+
+
+
+  </body>
+</html>
